@@ -1,0 +1,67 @@
+# Источники и степень проверки
+
+Полный реестр: `.agents/skills/web-platform-release/sources.json`.
+
+- **codex-skills** — [Repository .agents/skills layout, SKILL.md metadata, explicit invocation](https://developers.openai.com/codex/skills/); READ_REDIRECT. Official redirect to https://learn.chatgpt.com/docs/build-skills
+- **codex-agents** — [AGENTS.md project instructions](https://developers.openai.com/codex/guides/agents-md/); READ_REDIRECT. Official redirect to https://learn.chatgpt.com/docs/agent-configuration/agents-md
+- **ya-rules** — [Publication requirements](https://yandex.ru/dev/games/doc/ru/concepts/requirements); READ. 
+- **ya-sdk** — [SDK requirement](https://yandex.ru/dev/games/doc/ru/sdk); READ. 
+- **ya-loader** — [Hosted and external SDK loader](https://yandex.ru/dev/games/doc/ru/sdk/sdk-about); READ. 
+- **ya-ads** — [Ad callbacks](https://yandex.ru/dev/games/doc/ru/sdk/sdk-adv); READ. 
+- **ya-iap** — [Purchases and signed option](https://yandex.ru/dev/games/doc/ru/sdk/sdk-purchases); READ. 
+- **ya-player** — [Player data](https://yandex.ru/dev/games/doc/ru/sdk/sdk-player); READ. 
+- **ya-board** — [Current leaderboards namespace and auth](https://yandex.ru/dev/games/doc/ru/sdk/sdk-leaderboard); READ. 
+- **ya-life** — [Ready/lifecycle](https://yandex.ru/dev/games/doc/ru/requirements/1/19); READ. 
+- **ya-contract** — [Unified licensing model; account eligibility is separate](https://yandex.ru/dev/games/doc/ru/payments); READ. 
+- **cg-home** — [Launch stages](https://docs.crazygames.com/); READ. 
+- **cg-basic** — [Basic Launch evaluation](https://docs.crazygames.com/resources/basic-launch-metrics/); READ. 
+- **cg-intro** — [IAP gated](https://docs.crazygames.com/requirements/intro/); READ. 
+- **cg-tech** — [Size and technical limits](https://docs.crazygames.com/requirements/technical/); READ. 
+- **cg-ads** — [Ad policy](https://docs.crazygames.com/requirements/ads/); READ. 
+- **cg-board** — [Invite-only board](https://docs.crazygames.com/sdk/leaderboards/); READ. 
+- **cg-board-api** — [Backend key is server-side](https://docs.crazygames.com/sdk/leaderboard-api/); READ. 
+- **cg-faq** — [Cross-platform nonexclusive general FAQ](https://docs.crazygames.com/faq/); READ. 
+- **poki-entry** — [Curated entry](https://developers.poki.com/guide/working-with-poki); READ. 
+- **poki-rules** — [Device/lifecycle/ad UI requirements](https://developers.poki.com/guide/requirements-quality); READ. 
+- **poki-sdk** — [HTML5 SDK callbacks](https://developers.poki.com/guide/sdk-html5); READ. 
+- **poki-money** — [Ad model; no IAP](https://developers.poki.com/guide/how-monetization-works); READ. 
+- **poki-deals** — [Exclusive and nonexclusive deals](https://developers.poki.com/guide/revenue-deal-types); READ. 
+- **poki-payouts** — [Payment methods not proof of Russia acceptance](https://developers.poki.com/guide/payouts-billing); READ. 
+- **poki-accounts** — [Feature-gated accounts](https://developers.poki.com/guide/accounts); READ. 
+- **poki-auds** — [User data storage, not leaderboard](https://developers.poki.com/guide/auds); READ. 
+- **vk-bridge** — [Official bridge repository](https://github.com/VKCOM/vk-bridge); READ. 
+- **vk-guide** — [Primary VK company overview, not binding current portal contract](https://habr.com/ru/companies/vk/articles/961286/); READ. 
+- **vk-dev** — [Current publication, payment and ad policies](https://dev.vk.com/); INACCESSIBLE. Needs manual/current cabinet reading; not treated as verified
+- **vk-ok-publishing** — [New OK publication route linked from official OK FAQ](https://dev.vk.com/ok/publishing); INACCESSIBLE. Exact document inaccessible to automated reader
+- **ok-faq** — [New applications directed to VK Mini Apps](https://apiok.ru/apps/questions/); READ. 
+- **ok-setup** — [Game setup docs hub](https://apiok.ru/apps/game_setup/); READ. 
+- **ok-ads** — [Legacy ads and contract-before-revenue rule](https://apiok.ru/apps/features/ads); READ. 
+- **ok-hyper** — [Legacy FAPI ad flows](https://apiok.ru/apps/game_setup/hypercasual_app_launch); READ_LEGACY. Not assumed valid entry route for new Mini Apps games
+- **ok-tests** — [Ad/purchase test modes](https://apiok.ru/apps/game_setup/test_ads_payments_mode); READ. 
+- **gd-sdk** — [SDK events; SDK development commands not game commands](https://github.com/GameDistribution/GD-HTML5); READ. 
+- **gd-setup** — [GD_OPTIONS and lifecycle](https://github.com/GameDistribution/GD-HTML5/wiki/SDK-Implementation); READ_OLDER_PAGE. Reconfirm current contract and cabinet; page age does not itself prove current availability
+- **gd-reward** — [Reward completion event](https://github.com/GameDistribution/GD-HTML5/wiki/Rewarded-Ads); READ_OLDER_PAGE. Reconfirm current contract and cabinet; page age does not itself prove current availability
+- **gd-store** — [Documented Store API exists; account availability unknown](https://github.com/GameDistribution/GD-HTML5/wiki/Store-API-Integration); READ_OLDER_PAGE. Reconfirm current contract and cabinet; page age does not itself prove current availability
+- **gd-entry** — [Public entry, contract not retrieved](https://gamedistribution.com/developers/); PARTIAL. Page primarily embeds portal; payment eligibility not verified
+- **pg-start** — [Upload/QA route](https://wiki.playgama.com/playgama/quick-start); READ. 
+- **pg-tech** — [Archive and external analytics limits](https://wiki.playgama.com/playgama/game-requirements/technical-requirements); READ. 
+- **pg-bridge** — [Current v2 vs obsolete v1](https://wiki.playgama.com/playgama/bridge-sdk/getting-started); READ. 
+- **pg-api** — [Minimum core integration](https://wiki.playgama.com/playgama/bridge-sdk/api); READ. 
+- **pg-board** — [Host-dependent native modes and SaaS](https://wiki.playgama.com/playgama/bridge-sdk/api/leaderboards); READ. 
+- **pg-iap** — [Optional purchase capability](https://wiki.playgama.com/playgama/bridge-sdk/api/payments); READ. 
+- **pg-money** — [Channel-dependent contract terms; individual jurisdiction caveat](https://wiki.playgama.com/playgama/faq/payments-and-statistics); READ. 
+- **gp-home** — [SDK/backend product and pricing must be checked](https://gamepush.com/); READ. 
+- **gp-docs** — [SDK documentation](https://docs.gamepush.com/); READ. 
+- **gp-vk** — [Vendor guide, subordinate to host rules](https://docs.gamepush.com/tutorials/adding-game-vk/); READ_VENDOR_GUIDE. Not used to override new VK/OK publication rules
+- **phaser4** — [Phaser 4 release line exists; preserve installed version](https://phaser.io/download/phaser4); READ. 
+- **phaser-api** — [Documentation entry point](https://docs.phaser.io/); LINK_ONLY. Select installed version and read before implementation
+- **unity-web** — [Version-specific Web manual entry](https://docs.unity3d.com/Manual/web.html); LINK_ONLY. No exact version-specific settings claimed; read installed-editor manual before changes
+- **ref-shelves** — [Sorting/triple shelf loop](https://yandex.ru/games/app/razlozhi-po-polochkam-master-sortirovki-327098); READ_GAME_PAGE. Not proof of revenue, growth or presence on other platforms
+- **ref-asmr** — [Sorting interactions](https://yandex.ru/games/app/asmr-sortirovka-359915); READ_GAME_PAGE. Not proof of revenue, growth or presence on other platforms
+- **ref-racers** — [Merge + deployment/income](https://poki.com/en/g/merge-cyber-racers); READ_GAME_PAGE. Not proof of revenue, growth or presence on other platforms
+- **ref-farm** — [Merge/production/order loop, scope reference only](https://www.crazygames.com/game/farm-merge-valley); READ_GAME_PAGE. Not proof of revenue, growth or presence on other platforms
+- **ref-idle** — [Idle production bottlenecks](https://poki.com/en/g/idle-mining-empire); READ_GAME_PAGE. Not proof of revenue, growth or presence on other platforms
+- **ref-mine** — [Clicker upgrades](https://www.crazygames.com/game/merge-mine-idle-clicker); READ_GAME_PAGE. Not proof of revenue, growth or presence on other platforms
+- **ref-hidden** — [Hidden object loop](https://www.crazygames.com/game/hidden-objects); READ_GAME_PAGE. Not proof of revenue, growth or presence on other platforms
+- **ref-papa** — [Orders/assembly/service](https://poki.com/en/g/papas-freezeria); READ_GAME_PAGE. Not proof of revenue, growth or presence on other platforms
+- **ref-cake** — [Restoration visual meta only](https://www.crazygames.com/game/piece-of-cake-merge-and-bake); READ_GAME_PAGE. Not proof of revenue, growth or presence on other platforms

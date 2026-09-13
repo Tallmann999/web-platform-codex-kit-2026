@@ -1,0 +1,6 @@
+interface:
+  display_name: "Web Platform Release"
+  short_description: "MVP → выбор площадки → согласованный SDK и отдельная сборка"
+  default_prompt: "Use $web-platform-release to audit this web game read-only, confirm MVP readiness, ask the target platform and propose a minimal approved integration plan."
+policy:
+  allow_implicit_invocation: true

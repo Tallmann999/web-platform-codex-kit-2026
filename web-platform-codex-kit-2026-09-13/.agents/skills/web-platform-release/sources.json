@@ -1,0 +1,511 @@
+{
+  "schema_version": 1,
+  "snapshot_date": "2026-09-13",
+  "policy": "Revalidate current official source and account capability before implementation. No source content bundled verbatim.",
+  "sources": [
+    {
+      "id": "codex-skills",
+      "url": "https://developers.openai.com/codex/skills/",
+      "checked_at": "2026-09-13",
+      "status": "READ_REDIRECT",
+      "scope": "Repository .agents/skills layout, SKILL.md metadata, explicit invocation",
+      "note": "Official redirect to https://learn.chatgpt.com/docs/build-skills"
+    },
+    {
+      "id": "codex-agents",
+      "url": "https://developers.openai.com/codex/guides/agents-md/",
+      "checked_at": "2026-09-13",
+      "status": "READ_REDIRECT",
+      "scope": "AGENTS.md project instructions",
+      "note": "Official redirect to https://learn.chatgpt.com/docs/agent-configuration/agents-md"
+    },
+    {
+      "id": "ya-rules",
+      "url": "https://yandex.ru/dev/games/doc/ru/concepts/requirements",
+      "checked_at": "2026-09-13",
+      "status": "READ",
+      "scope": "Publication requirements",
+      "note": ""
+    },
+    {
+      "id": "ya-sdk",
+      "url": "https://yandex.ru/dev/games/doc/ru/sdk",
+      "checked_at": "2026-09-13",
+      "status": "READ",
+      "scope": "SDK requirement",
+      "note": ""
+    },
+    {
+      "id": "ya-loader",
+      "url": "https://yandex.ru/dev/games/doc/ru/sdk/sdk-about",
+      "checked_at": "2026-09-13",
+      "status": "READ",
+      "scope": "Hosted and external SDK loader",
+      "note": ""
+    },
+    {
+      "id": "ya-ads",
+      "url": "https://yandex.ru/dev/games/doc/ru/sdk/sdk-adv",
+      "checked_at": "2026-09-13",
+      "status": "READ",
+      "scope": "Ad callbacks",
+      "note": ""
+    },
+    {
+      "id": "ya-iap",
+      "url": "https://yandex.ru/dev/games/doc/ru/sdk/sdk-purchases",
+      "checked_at": "2026-09-13",
+      "status": "READ",
+      "scope": "Purchases and signed option",
+      "note": ""
+    },
+    {
+      "id": "ya-player",
+      "url": "https://yandex.ru/dev/games/doc/ru/sdk/sdk-player",
+      "checked_at": "2026-09-13",
+      "status": "READ",
+      "scope": "Player data",
+      "note": ""
+    },
+    {
+      "id": "ya-board",
+      "url": "https://yandex.ru/dev/games/doc/ru/sdk/sdk-leaderboard",
+      "checked_at": "2026-09-13",
+      "status": "READ",
+      "scope": "Current leaderboards namespace and auth",
+      "note": ""
+    },
+    {
+      "id": "ya-life",
+      "url": "https://yandex.ru/dev/games/doc/ru/requirements/1/19",
+      "checked_at": "2026-09-13",
+      "status": "READ",
+      "scope": "Ready/lifecycle",
+      "note": ""
+    },
+    {
+      "id": "ya-contract",
+      "url": "https://yandex.ru/dev/games/doc/ru/payments",
+      "checked_at": "2026-09-13",
+      "status": "READ",
+      "scope": "Unified licensing model; account eligibility is separate",
+      "note": ""
+    },
+    {
+      "id": "cg-home",
+      "url": "https://docs.crazygames.com/",
+      "checked_at": "2026-09-13",
+      "status": "READ",
+      "scope": "Launch stages",
+      "note": ""
+    },
+    {
+      "id": "cg-basic",
+      "url": "https://docs.crazygames.com/resources/basic-launch-metrics/",
+      "checked_at": "2026-09-13",
+      "status": "READ",
+      "scope": "Basic Launch evaluation",
+      "note": ""
+    },
+    {
+      "id": "cg-intro",
+      "url": "https://docs.crazygames.com/requirements/intro/",
+      "checked_at": "2026-09-13",
+      "status": "READ",
+      "scope": "IAP gated",
+      "note": ""
+    },
+    {
+      "id": "cg-tech",
+      "url": "https://docs.crazygames.com/requirements/technical/",
+      "checked_at": "2026-09-13",
+      "status": "READ",
+      "scope": "Size and technical limits",
+      "note": ""
+    },
+    {
+      "id": "cg-ads",
+      "url": "https://docs.crazygames.com/requirements/ads/",
+      "checked_at": "2026-09-13",
+      "status": "READ",
+      "scope": "Ad policy",
+      "note": ""
+    },
+    {
+      "id": "cg-board",
+      "url": "https://docs.crazygames.com/sdk/leaderboards/",
+      "checked_at": "2026-09-13",
+      "status": "READ",
+      "scope": "Invite-only board",
+      "note": ""
+    },
+    {
+      "id": "cg-board-api",
+      "url": "https://docs.crazygames.com/sdk/leaderboard-api/",
+      "checked_at": "2026-09-13",
+      "status": "READ",
+      "scope": "Backend key is server-side",
+      "note": ""
+    },
+    {
+      "id": "cg-faq",
+      "url": "https://docs.crazygames.com/faq/",
+      "checked_at": "2026-09-13",
+      "status": "READ",
+      "scope": "Cross-platform nonexclusive general FAQ",
+      "note": ""
+    },
+    {
+      "id": "poki-entry",
+      "url": "https://developers.poki.com/guide/working-with-poki",
+      "checked_at": "2026-09-13",
+      "status": "READ",
+      "scope": "Curated entry",
+      "note": ""
+    },
+    {
+      "id": "poki-rules",
+      "url": "https://developers.poki.com/guide/requirements-quality",
+      "checked_at": "2026-09-13",
+      "status": "READ",
+      "scope": "Device/lifecycle/ad UI requirements",
+      "note": ""
+    },
+    {
+      "id": "poki-sdk",
+      "url": "https://developers.poki.com/guide/sdk-html5",
+      "checked_at": "2026-09-13",
+      "status": "READ",
+      "scope": "HTML5 SDK callbacks",
+      "note": ""
+    },
+    {
+      "id": "poki-money",
+      "url": "https://developers.poki.com/guide/how-monetization-works",
+      "checked_at": "2026-09-13",
+      "status": "READ",
+      "scope": "Ad model; no IAP",
+      "note": ""
+    },
+    {
+      "id": "poki-deals",
+      "url": "https://developers.poki.com/guide/revenue-deal-types",
+      "checked_at": "2026-09-13",
+      "status": "READ",
+      "scope": "Exclusive and nonexclusive deals",
+      "note": ""
+    },
+    {
+      "id": "poki-payouts",
+      "url": "https://developers.poki.com/guide/payouts-billing",
+      "checked_at": "2026-09-13",
+      "status": "READ",
+      "scope": "Payment methods not proof of Russia acceptance",
+      "note": ""
+    },
+    {
+      "id": "poki-accounts",
+      "url": "https://developers.poki.com/guide/accounts",
+      "checked_at": "2026-09-13",
+      "status": "READ",
+      "scope": "Feature-gated accounts",
+      "note": ""
+    },
+    {
+      "id": "poki-auds",
+      "url": "https://developers.poki.com/guide/auds",
+      "checked_at": "2026-09-13",
+      "status": "READ",
+      "scope": "User data storage, not leaderboard",
+      "note": ""
+    },
+    {
+      "id": "vk-bridge",
+      "url": "https://github.com/VKCOM/vk-bridge",
+      "checked_at": "2026-09-13",
+      "status": "READ",
+      "scope": "Official bridge repository",
+      "note": ""
+    },
+    {
+      "id": "vk-guide",
+      "url": "https://habr.com/ru/companies/vk/articles/961286/",
+      "checked_at": "2026-09-13",
+      "status": "READ",
+      "scope": "Primary VK company overview, not binding current portal contract",
+      "note": ""
+    },
+    {
+      "id": "vk-dev",
+      "url": "https://dev.vk.com/",
+      "checked_at": "2026-09-13",
+      "status": "INACCESSIBLE",
+      "scope": "Current publication, payment and ad policies",
+      "note": "Needs manual/current cabinet reading; not treated as verified"
+    },
+    {
+      "id": "vk-ok-publishing",
+      "url": "https://dev.vk.com/ok/publishing",
+      "checked_at": "2026-09-13",
+      "status": "INACCESSIBLE",
+      "scope": "New OK publication route linked from official OK FAQ",
+      "note": "Exact document inaccessible to automated reader"
+    },
+    {
+      "id": "ok-faq",
+      "url": "https://apiok.ru/apps/questions/",
+      "checked_at": "2026-09-13",
+      "status": "READ",
+      "scope": "New applications directed to VK Mini Apps",
+      "note": ""
+    },
+    {
+      "id": "ok-setup",
+      "url": "https://apiok.ru/apps/game_setup/",
+      "checked_at": "2026-09-13",
+      "status": "READ",
+      "scope": "Game setup docs hub",
+      "note": ""
+    },
+    {
+      "id": "ok-ads",
+      "url": "https://apiok.ru/apps/features/ads",
+      "checked_at": "2026-09-13",
+      "status": "READ",
+      "scope": "Legacy ads and contract-before-revenue rule",
+      "note": ""
+    },
+    {
+      "id": "ok-hyper",
+      "url": "https://apiok.ru/apps/game_setup/hypercasual_app_launch",
+      "checked_at": "2026-09-13",
+      "status": "READ_LEGACY",
+      "scope": "Legacy FAPI ad flows",
+      "note": "Not assumed valid entry route for new Mini Apps games"
+    },
+    {
+      "id": "ok-tests",
+      "url": "https://apiok.ru/apps/game_setup/test_ads_payments_mode",
+      "checked_at": "2026-09-13",
+      "status": "READ",
+      "scope": "Ad/purchase test modes",
+      "note": ""
+    },
+    {
+      "id": "gd-sdk",
+      "url": "https://github.com/GameDistribution/GD-HTML5",
+      "checked_at": "2026-09-13",
+      "status": "READ",
+      "scope": "SDK events; SDK development commands not game commands",
+      "note": ""
+    },
+    {
+      "id": "gd-setup",
+      "url": "https://github.com/GameDistribution/GD-HTML5/wiki/SDK-Implementation",
+      "checked_at": "2026-09-13",
+      "status": "READ_OLDER_PAGE",
+      "scope": "GD_OPTIONS and lifecycle",
+      "note": "Reconfirm current contract and cabinet; page age does not itself prove current availability"
+    },
+    {
+      "id": "gd-reward",
+      "url": "https://github.com/GameDistribution/GD-HTML5/wiki/Rewarded-Ads",
+      "checked_at": "2026-09-13",
+      "status": "READ_OLDER_PAGE",
+      "scope": "Reward completion event",
+      "note": "Reconfirm current contract and cabinet; page age does not itself prove current availability"
+    },
+    {
+      "id": "gd-store",
+      "url": "https://github.com/GameDistribution/GD-HTML5/wiki/Store-API-Integration",
+      "checked_at": "2026-09-13",
+      "status": "READ_OLDER_PAGE",
+      "scope": "Documented Store API exists; account availability unknown",
+      "note": "Reconfirm current contract and cabinet; page age does not itself prove current availability"
+    },
+    {
+      "id": "gd-entry",
+      "url": "https://gamedistribution.com/developers/",
+      "checked_at": "2026-09-13",
+      "status": "PARTIAL",
+      "scope": "Public entry, contract not retrieved",
+      "note": "Page primarily embeds portal; payment eligibility not verified"
+    },
+    {
+      "id": "pg-start",
+      "url": "https://wiki.playgama.com/playgama/quick-start",
+      "checked_at": "2026-09-13",
+      "status": "READ",
+      "scope": "Upload/QA route",
+      "note": ""
+    },
+    {
+      "id": "pg-tech",
+      "url": "https://wiki.playgama.com/playgama/game-requirements/technical-requirements",
+      "checked_at": "2026-09-13",
+      "status": "READ",
+      "scope": "Archive and external analytics limits",
+      "note": ""
+    },
+    {
+      "id": "pg-bridge",
+      "url": "https://wiki.playgama.com/playgama/bridge-sdk/getting-started",
+      "checked_at": "2026-09-13",
+      "status": "READ",
+      "scope": "Current v2 vs obsolete v1",
+      "note": ""
+    },
+    {
+      "id": "pg-api",
+      "url": "https://wiki.playgama.com/playgama/bridge-sdk/api",
+      "checked_at": "2026-09-13",
+      "status": "READ",
+      "scope": "Minimum core integration",
+      "note": ""
+    },
+    {
+      "id": "pg-board",
+      "url": "https://wiki.playgama.com/playgama/bridge-sdk/api/leaderboards",
+      "checked_at": "2026-09-13",
+      "status": "READ",
+      "scope": "Host-dependent native modes and SaaS",
+      "note": ""
+    },
+    {
+      "id": "pg-iap",
+      "url": "https://wiki.playgama.com/playgama/bridge-sdk/api/payments",
+      "checked_at": "2026-09-13",
+      "status": "READ",
+      "scope": "Optional purchase capability",
+      "note": ""
+    },
+    {
+      "id": "pg-money",
+      "url": "https://wiki.playgama.com/playgama/faq/payments-and-statistics",
+      "checked_at": "2026-09-13",
+      "status": "READ",
+      "scope": "Channel-dependent contract terms; individual jurisdiction caveat",
+      "note": ""
+    },
+    {
+      "id": "gp-home",
+      "url": "https://gamepush.com/",
+      "checked_at": "2026-09-13",
+      "status": "READ",
+      "scope": "SDK/backend product and pricing must be checked",
+      "note": ""
+    },
+    {
+      "id": "gp-docs",
+      "url": "https://docs.gamepush.com/",
+      "checked_at": "2026-09-13",
+      "status": "READ",
+      "scope": "SDK documentation",
+      "note": ""
+    },
+    {
+      "id": "gp-vk",
+      "url": "https://docs.gamepush.com/tutorials/adding-game-vk/",
+      "checked_at": "2026-09-13",
+      "status": "READ_VENDOR_GUIDE",
+      "scope": "Vendor guide, subordinate to host rules",
+      "note": "Not used to override new VK/OK publication rules"
+    },
+    {
+      "id": "phaser4",
+      "url": "https://phaser.io/download/phaser4",
+      "checked_at": "2026-09-13",
+      "status": "READ",
+      "scope": "Phaser 4 release line exists; preserve installed version",
+      "note": ""
+    },
+    {
+      "id": "phaser-api",
+      "url": "https://docs.phaser.io/",
+      "checked_at": "2026-09-13",
+      "status": "LINK_ONLY",
+      "scope": "Documentation entry point",
+      "note": "Select installed version and read before implementation"
+    },
+    {
+      "id": "unity-web",
+      "url": "https://docs.unity3d.com/Manual/web.html",
+      "checked_at": "2026-09-13",
+      "status": "LINK_ONLY",
+      "scope": "Version-specific Web manual entry",
+      "note": "No exact version-specific settings claimed; read installed-editor manual before changes"
+    },
+    {
+      "id": "ref-shelves",
+      "url": "https://yandex.ru/games/app/razlozhi-po-polochkam-master-sortirovki-327098",
+      "checked_at": "2026-09-13",
+      "status": "READ_GAME_PAGE",
+      "scope": "Sorting/triple shelf loop",
+      "note": "Not proof of revenue, growth or presence on other platforms"
+    },
+    {
+      "id": "ref-asmr",
+      "url": "https://yandex.ru/games/app/asmr-sortirovka-359915",
+      "checked_at": "2026-09-13",
+      "status": "READ_GAME_PAGE",
+      "scope": "Sorting interactions",
+      "note": "Not proof of revenue, growth or presence on other platforms"
+    },
+    {
+      "id": "ref-racers",
+      "url": "https://poki.com/en/g/merge-cyber-racers",
+      "checked_at": "2026-09-13",
+      "status": "READ_GAME_PAGE",
+      "scope": "Merge + deployment/income",
+      "note": "Not proof of revenue, growth or presence on other platforms"
+    },
+    {
+      "id": "ref-farm",
+      "url": "https://www.crazygames.com/game/farm-merge-valley",
+      "checked_at": "2026-09-13",
+      "status": "READ_GAME_PAGE",
+      "scope": "Merge/production/order loop, scope reference only",
+      "note": "Not proof of revenue, growth or presence on other platforms"
+    },
+    {
+      "id": "ref-idle",
+      "url": "https://poki.com/en/g/idle-mining-empire",
+      "checked_at": "2026-09-13",
+      "status": "READ_GAME_PAGE",
+      "scope": "Idle production bottlenecks",
+      "note": "Not proof of revenue, growth or presence on other platforms"
+    },
+    {
+      "id": "ref-mine",
+      "url": "https://www.crazygames.com/game/merge-mine-idle-clicker",
+      "checked_at": "2026-09-13",
+      "status": "READ_GAME_PAGE",
+      "scope": "Clicker upgrades",
+      "note": "Not proof of revenue, growth or presence on other platforms"
+    },
+    {
+      "id": "ref-hidden",
+      "url": "https://www.crazygames.com/game/hidden-objects",
+      "checked_at": "2026-09-13",
+      "status": "READ_GAME_PAGE",
+      "scope": "Hidden object loop",
+      "note": "Not proof of revenue, growth or presence on other platforms"
+    },
+    {
+      "id": "ref-papa",
+      "url": "https://poki.com/en/g/papas-freezeria",
+      "checked_at": "2026-09-13",
+      "status": "READ_GAME_PAGE",
+      "scope": "Orders/assembly/service",
+      "note": "Not proof of revenue, growth or presence on other platforms"
+    },
+    {
+      "id": "ref-cake",
+      "url": "https://www.crazygames.com/game/piece-of-cake-merge-and-bake",
+      "checked_at": "2026-09-13",
+      "status": "READ_GAME_PAGE",
+      "scope": "Restoration visual meta only",
+      "note": "Not proof of revenue, growth or presence on other platforms"
+    }
+  ]
+}

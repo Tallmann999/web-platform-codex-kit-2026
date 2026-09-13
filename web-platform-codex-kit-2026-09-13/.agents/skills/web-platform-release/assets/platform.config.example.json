@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "exampleOnly": true,
+  "platform": "UNSELECTED",
+  "runtime": "UNKNOWN",
+  "engineVersion": "READ_FROM_PROJECT",
+  "sdk": {
+    "authority": "UNSELECTED",
+    "version": "UNKNOWN",
+    "publicGameId": null
+  },
+  "capabilities": {
+    "interstitial": "unknown",
+    "rewarded": "unknown",
+    "iap": "unknown",
+    "cloud": "unknown",
+    "auth": "unknown",
+    "leaderboard": "unknown"
+  },
+  "build": {
+    "command": null,
+    "output": null,
+    "hostingMode": null
+  },
+  "commercialApproval": "unverified",
+  "codeChangeApproval": false,
+  "publishApproval": false,
+  "note": "Not a runtime SDK config. Never include secrets; fill after platform choice and approval."
+}
